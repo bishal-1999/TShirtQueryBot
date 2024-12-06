@@ -91,7 +91,7 @@ def process_query(query_text):
 
 # Streamlit UI code
 def streamlit_ui():
-    st.title("Ask The Database")
+    st.title("🤖 **Ask Your Database!** ✨")
 
     # Text input for the user to enter a query
     query_input = st.text_input("Enter your query about T-Shirts:")
